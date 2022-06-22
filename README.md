@@ -1,7 +1,7 @@
 # Summary
 This Java source code measures the time it takes to bubble sort a randomly generated array with two threads, versus the time for a singular thread. 
 
-- In the case of two-thread-sorting, the array is split; each half handed to a dedicated thread for sorting.
+- In the case of two-thread-sorting, the array is split; each half handed to a dedicated thread for sorting, before being recombined into a single now-sorted array.
 
 - In the case of single-thread-sorting, the entire array is handed to a single thread for sorting. Good thing I'm here to break this stuff down.
 
